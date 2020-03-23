@@ -1,16 +1,18 @@
-body{
+body, html {
+    height: 100%;
     padding: 0 0;
     margin: 0 0;
  }
  #jumbotron {
      background-image: url('./images/AnnaAndBlake.jpg');
+     height: 100%;
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
      margin: 0 0;
      padding: 0 0;
-     height: 700px;
-     width: 100%;
+    
+     /* width: 100%; */
  }
  .title{
      text-align: center;
@@ -32,7 +34,9 @@ body{
  }
  
  #info-row{
-     background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.8)), url("./images/nordwood-themes-KcsKWw77Ovw-unsplash.jpg");
+     background-image: 
+     linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), 
+     url("./images/nordwood-themes-KcsKWw77Ovw-unsplash.jpg");
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -69,7 +73,7 @@ body{
  }
  #registry-div{
      display: block;
-     margin: 0 auto 80px;
+     margin: 0 auto 40px;
      text-align: center;
      padding: 20px auto 50px;
  }
@@ -79,7 +83,7 @@ body{
  }
  #wedding-title{
      position: absolute;
-     bottom: 30%;
+     bottom: 25%;
  }
  #wedding-subtitle{
      text-align: center;
@@ -88,7 +92,7 @@ body{
      font-size: 60px;
      font-family: 'Shadows Into Light', cursive;
      position: absolute;
-     bottom: 15%;
+     bottom: 10%;
  }
  .wedding-title-div{
      background-color: rgb(226, 224, 255, 1);
@@ -125,6 +129,9 @@ body{
           
       }
  } */
+ #family-and-friends{
+     margin-top: 40px;
+ }
  
  @media screen and (max-width: 768px) {
      .title{
@@ -161,6 +168,11 @@ body{
          font-size: 2.5rem;
          margin-bottom: 15px;
      }
+     #registry-div{
+         margin-top: -40px;
+        margin-bottom: 40px;
+     }
+   
    
  }
 
@@ -170,17 +182,18 @@ body{
     }
     #wedding-title{
         font-size: 1.8rem;
-        bottom: 5%;
+        bottom: 15%;
        
     }
     #wedding-subtitle{
         font-size: 1.8rem;
-        bottom: -8%;
+        bottom: 5%;
        
     }
     #family-and-friends{
         font-size: 2.5rem;
         margin-bottom: 15px;
     }
+
   
 }
