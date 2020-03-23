@@ -149,12 +149,12 @@ body{
      }
      #wedding-title{
          font-size: 1.8rem;
-         bottom: 20%;
+         bottom: 15%;
         
      }
      #wedding-subtitle{
          font-size: 1.8rem;
-         bottom: 10%;
+         bottom: 5%;
         
      }
      #family-and-friends{
@@ -163,3 +163,24 @@ body{
      }
    
  }
+
+ @media screen and (max-width: 320px) {
+    .title{
+        font-size: 2.0rem;
+    }
+    #wedding-title{
+        font-size: 1.8rem;
+        bottom: 5%;
+       
+    }
+    #wedding-subtitle{
+        font-size: 1.8rem;
+        bottom: -8%;
+       
+    }
+    #family-and-friends{
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+    }
+  
+}
