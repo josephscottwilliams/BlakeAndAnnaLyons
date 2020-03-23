@@ -135,11 +135,11 @@ body{
      }
   
      #wedding-title{
-        bottom: 35%;
+        bottom: 20%;
      }
      #wedding-subtitle{
          font-size: 2.0rem;
-         bottom: 25%;
+         bottom: 10%;
          
      }
  }
@@ -156,6 +156,10 @@ body{
          font-size: 1.8rem;
          bottom: 10%;
         
+     }
+     #family-and-friends{
+         font-size: 2.5rem;
+         margin-bottom: 15px;
      }
    
  }
