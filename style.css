@@ -66,16 +66,17 @@ body, html {
      font-family: 'Shadows Into Light', cursive;
  }
  #wedding-reg-subtitle{
-     font-size: 20px;
+     font-size: 15px;
+     margin-bottom: 40px;
  }
  #heart{
      width: 40px;
  }
  #registry-div{
      display: block;
-     margin: 0 auto 40px;
+     margin: 0 auto 10px;
      text-align: center;
-     padding: 20px auto 50px;
+     padding: 10px auto 20px;
  }
  #main-title{
      position: absolute;
@@ -179,7 +180,7 @@ body, html {
          margin-bottom: 15px;
      }
      #registry-div{
-        margin: -20px 0 0 0;
+        margin: 0px 0 10px 0;
         padding: 0 0;
      }
      /* #registry-div{
